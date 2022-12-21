@@ -457,7 +457,7 @@ footer .bottom-details .bottom_text {
   color: black;
   opacity: 0.6;
   border-radius: 5px;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .partner_news img {
@@ -465,6 +465,14 @@ footer .bottom-details .bottom_text {
   height: auto;
 }
 .partner_news .acat {
+  width: auto;
+  height: 70px;
+}
+.partner_news .kyep {
+  width: auto;
+  height: 100px;
+}
+.partner_news .moe {
   width: auto;
   height: 70px;
 }
