@@ -68,6 +68,28 @@ header {
   background-color: skyblue;
   color: #fff;
 }
+/* apply button */
+.button {
+  cursor: pointer;
+  margin: 0 5px;
+  background-color: #00bdd7;
+  padding: 10px 26px 10px;
+  border: 1px solid #00bdd7;
+  border-radius: 40px;
+  position: absolute;
+  color: #fff;
+  min-height: 54px;
+  outline: 0;
+  /* width: 120px; */
+  transition: color 0.1s ease-in 0.32s, width 0.2s ease-in,
+    font-size 0.1s ease-in 0.21s;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.button:hover{
+  opacity: 0.7;
+}
 #menu-icon {
   color: #fff;
   font-size: 40px;
@@ -160,7 +182,7 @@ section {
   /* opacity: 0.6; */
 }
 .main_container h1 {
-  font-weight: bolder;  
+  font-weight: bolder;
   font-size: 60px;
   text-align: center;
   align-items: center;
